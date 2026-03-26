@@ -1,0 +1,33 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel
+/.env
+/.env.backup
+/.phpunit.cache
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Docker volumes mapping
+docker/mysql/data/
+docker/mysql/logs/
+/mysql/
